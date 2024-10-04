@@ -4,7 +4,7 @@ import { Separator } from "@/components/ui/separator";
 
 export default function Footer() {
     return (
-        <div className="hidden w-full h-full bg-white shadow-2xl xl:flex flex-col gap-3 justify-center rounded-t-3xl px-[40px]">
+        <div className="hidden w-full h-full bg-white drop-shadow-2xl xl:flex flex-col gap-3 justify-center rounded-t-3xl px-[40px]">
             <div className="grid grid-cols-3 gap-4">
                 <div className="">Softpital</div>
                 <div className="">
