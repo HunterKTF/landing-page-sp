@@ -16,7 +16,7 @@ import Link from "next/link";
 
 export default function Navigation() {
     return (
-        <div className="flex w-full h-full justify-between items-center rounded-full bg-white shadow-lg px-10">
+        <div className="flex w-full h-full justify-between items-center rounded-full bg-white drop-shadow-xl px-10">
             <h3 className="text-xl font-bold" id="logo">
                 Softpital
             </h3>

@@ -13,10 +13,10 @@ import Footer from "@/components/app/footer";
 export default function Home() {
   return (
     <main className="mt-[10vh]">
-      <nav className="flex w-full h-[10vh] fixed top-0 justify-center items-center px-[30px] xl:px-[90px] py-[20px]" id="navigation">
+      <nav className="flex w-full h-[10vh] fixed top-0 justify-center items-center px-[30px] xl:px-[90px] py-[20px] z-50" id="navigation">
         <Navigation />
       </nav>
-      <section className="flex w-full h-[70vh] px-[30px] xl:px-[90px]" id="hero-section">
+      <section className="flex w-full px-[30px] xl:px-[90px] z-10" id="hero-section">
         <Hero />
       </section>
       <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="stats">
