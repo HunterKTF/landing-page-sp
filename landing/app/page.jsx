@@ -13,13 +13,13 @@ import Footer from "@/components/app/footer";
 export default function Home() {
   return (
     <main className="mt-[10vh]">
-      <nav className="flex w-full h-[10vh] fixed top-0 justify-center items-center px-[30px] xl:px-[90px] py-[20px] z-50" id="navigation">
+      <nav className="flex w-full fixed top-0 justify-center items-center px-[30px] xl:px-[90px] py-[20px] z-50" id="navigation">
         <Navigation />
       </nav>
-      <section className="flex w-full px-[30px] xl:px-[90px] z-10" id="hero-section">
+      <section className="flex w-full py-10 px-[30px] xl:px-[90px] z-10" id="hero-section">
         <Hero />
       </section>
-      <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="stats">
+      <section className="flex w-full py-5 px-[30px] xl:px-[90px]" id="stats">
         <Stats />
       </section>
       <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="offer">
@@ -40,7 +40,7 @@ export default function Home() {
       <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="faq">
         <FAQ />
       </section>
-      <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="contact">
+      <section className="flex w-full h-[60vh] px-[30px] xl:px-[90px]" id="contact">
         <Contact />
       </section>
       <section className="flex w-full h-fit px-[30px] xl:px-[90px]" id="footer">

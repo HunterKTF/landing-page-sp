@@ -7,9 +7,9 @@ import { Separator } from "@radix-ui/react-dropdown-menu";
 
 export default function Hero() {
     return (
-        <div className="w-full flex justify-center items-center py-16">
+        <div className="w-full flex justify-center items-center py-20">
             {/* Desktop Hero Section */}
-            <div className="hidden xl:flex p-10 items-center">
+            <div className="hidden xl:flex justify-around gap-10 py-10 items-center">
                 <div className="w-full px-10 flex flex-col gap-5" id="hero-text">
                     <h1 className="text-3xl font-bold text-slate-700">
                         EL FUTURO PARA LA GESTIÓN DE EQUIPOS Y TECNOLOGÍA BIOMÉDICA
@@ -27,7 +27,7 @@ export default function Hero() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-full drop-shadow-2xl" id="hero-img">
+                <div className="w-full flex justify-center drop-shadow-2xl" id="hero-img">
                     <Image
                         src="/sistemacomputo.png"
                         width={500}
