@@ -55,10 +55,10 @@ export default function Hero() {
                     </h2>
                     <div className="flex gap-5" id="button-group">
                         <Link href="" className="bg-slate-700 border border-slate-700 px-4 py-2 rounded-md drop-shadow-2xl">
-                            <p className="text-sm text-white">Agendar Demo</p>
+                            <p className="text-sm text-white text-center">Agendar Demo</p>
                         </Link>
                         <Link href="" className="border border-slate-700 px-4 py-2 rounded-md flex items-center drop-shadow-2xl">
-                            <p className="text-xs text-slate-700">Chatea con un experto</p>
+                            <p className="text-xs text-slate-700 text-center">Chatea con un experto</p>
                         </Link>
                     </div>
                 </div>
