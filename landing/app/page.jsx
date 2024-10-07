@@ -43,7 +43,7 @@ export default function Home() {
       <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="contact">
         <Contact />
       </section>
-      <section className="flex w-full h-fit xl:h-[25vh] px-[30px] xl:px-[90px]" id="footer">
+      <section className="flex w-full h-fit px-[30px] xl:px-[90px]" id="footer">
         <Footer />
       </section>
     </main>
