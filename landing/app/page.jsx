@@ -1,7 +1,6 @@
 import Navigation from "@/components/app/navigation";
 import Hero from "@/components/app/hero";
 import Stats from "@/components/app/stats";
-import Offer from "@/components/app/offer";
 import Features from "@/components/app/features";
 import Benefits from "@/components/app/benefits";
 import Quotes from "@/components/app/quotes";
