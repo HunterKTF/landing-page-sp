@@ -22,7 +22,7 @@ export default function Stats() {
 
             {/* Mobile stats view */}
             <div className="xl:hidden flex flex-col w-full gap-5 justify-center items-center">
-                <h4 className="text-2xl font-bold text-slate-700 drop-shadow-xl">Planifica, Automatiza y Gestiona</h4>
+                <h4 className="text-2xl font-bold text-slate-700 drop-shadow-xl text-center">Planifica, Automatiza y Gestiona</h4>
                 <div className=" flex flex-col items-center drop-shadow-xl gap-3" id="stats-1">
                     <h4 className="text-4xl font-bold text-slate-700">100%</h4>
                     <p className="text-sm text-slate-600 text-center">Digitaliza tus servicios, mantenimientos preventivos MP y mantenimientos correctivos MC</p>

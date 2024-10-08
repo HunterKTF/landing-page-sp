@@ -22,28 +22,25 @@ export default function Home() {
       <section className="flex w-full py-5 px-[30px] xl:px-[90px]" id="stats">
         <Stats />
       </section>
-      <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="offer">
-        <Offer />
-      </section>
-      <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="features">
+      <section className="flex w-full px-[30px] xl:px-[90px] bg-slate-100" id="features">
         <Features />
       </section>
       <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="benefits">
         <Benefits />
       </section>
-      <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="quotes">
+      <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px] bg-slate-100" id="quotes">
         <Quotes />
       </section>
       <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="try-now">
         <TryNow />
       </section>
-      <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="faq">
+      <section className="flex w-full px-[30px] xl:px-[90px] bg-slate-100" id="faq">
         <FAQ />
       </section>
-      <section className="flex w-full h-[60vh] px-[30px] xl:px-[90px]" id="contact">
+      <section className="flex w-full px-[30px] xl:px-[90px]" id="contact">
         <Contact />
       </section>
-      <section className="flex w-full h-fit px-[30px] xl:px-[90px]" id="footer">
+      <section className="flex w-full px-[30px] xl:px-[90px]" id="footer">
         <Footer />
       </section>
     </main>

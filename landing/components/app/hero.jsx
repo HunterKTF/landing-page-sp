@@ -3,8 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { Separator } from "@radix-ui/react-dropdown-menu";
-
 export default function Hero() {
     return (
         <div className="w-full flex justify-center items-center py-20">
@@ -53,16 +51,15 @@ export default function Hero() {
                         Monitorea en tiempo real y centraliza los servicios y mantenimientos
                         de tus equipos médicos.
                     </h2>
-                    <div className="flex gap-5" id="button-group">
-                        <Link href="" className="bg-slate-700 border border-slate-700 px-4 py-2 rounded-md drop-shadow-2xl">
+                    <div className="flex flex-col gap-5" id="button-group">
+                        <Link href="" className="bg-slate-700 border border-slate-700 px-6 py-3 rounded-md drop-shadow-2xl">
                             <p className="text-sm text-white text-center">Agendar Demo</p>
                         </Link>
-                        <Link href="" className="border border-slate-700 px-4 py-2 rounded-md flex items-center drop-shadow-2xl">
+                        <Link href="" className="border border-slate-700 px-6 py-3 rounded-md flex items-center drop-shadow-2xl">
                             <p className="text-xs text-slate-700 text-center">Chatea con un experto</p>
                         </Link>
                     </div>
                 </div>
-
             </div>
         </div>
     )
