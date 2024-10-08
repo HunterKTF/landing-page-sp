@@ -27,7 +27,7 @@ export default function Home() {
       <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="benefits">
         <Benefits />
       </section>
-      <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px] bg-slate-100" id="quotes">
+      <section className="flex w-full px-[30px] xl:px-[90px] bg-slate-100" id="quotes">
         <Quotes />
       </section>
       <section className="flex w-full h-[30vh] px-[30px] xl:px-[90px]" id="try-now">
